@@ -8,11 +8,12 @@
 
 .nav li {
   display: inline;
+  
 }
 
 .jumbotron {
-  background-image: url("matrix.gif");
-  height: 500px;
+  background-image: url("abstractbackground.jpg");
+  height: 700px; 
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -29,7 +30,17 @@
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 48px;  
+  font-size: 72px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.aboutme{
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+   
+}
+.jumbotron h2 {
+  color: #fff;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
@@ -41,6 +52,7 @@
 
 .learn-more {
   background-color: #f7f7f7;
+   
 }
 
 .learn-more h2 {
@@ -56,6 +68,17 @@
   font-weight: bold;
 }
 
+
+
 .learn-more a {
   color: #00b0ff;
 }
+.row{
+  
+  background-image: url("abstractbackground2.jpg");
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  
+ }
